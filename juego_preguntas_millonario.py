@@ -5,7 +5,7 @@
 # - Lee preguntas desde preguntas.json (respuesta: "A","B","C","D")
 
 # istalar libreria de sonido "py -m pip install pygame"
-#
+# istalar la libreria de pyserial "pip install pyserial"
 
 import tkinter as tk
 from tkinter import messagebox
@@ -172,4 +172,5 @@ ventana.bind("<KeyPress>", on_key)
 random.shuffle(preguntas)
 mostrar_pregunta()
 ventana.mainloop()
+
 
