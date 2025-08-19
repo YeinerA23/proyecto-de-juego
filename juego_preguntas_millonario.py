@@ -4,6 +4,9 @@
 # - Botón "Volver a jugar" después de perder/ganar
 # - Lee preguntas desde preguntas.json (respuesta: "A","B","C","D")
 
+# istalar libreria de sonido "py -m pip install pygame"
+#
+
 import tkinter as tk
 from tkinter import messagebox
 import json, random, os
@@ -169,3 +172,4 @@ ventana.bind("<KeyPress>", on_key)
 random.shuffle(preguntas)
 mostrar_pregunta()
 ventana.mainloop()
+
